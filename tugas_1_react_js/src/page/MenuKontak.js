@@ -1,11 +1,13 @@
-import React from 'react';
+import React,{Component} from 'react';
 
-function MenuKontak() {
-    return (
-        <div>
-            <p>Ini Halaman Menu Kontak</p>
-        </div>
-    );
+class MenuKontak extends Component {
+    render(){
+        return (
+            <div>
+                <p>Ini Halaman Menu Kontak</p>
+            </div>
+        );
+    }
 }
 
 export default MenuKontak;

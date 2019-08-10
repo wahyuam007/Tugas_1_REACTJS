@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function MenuUtama() {
-    return (
-        <div>
-            <p>Ini Halaman Menu Utama</p>
-        </div>
-    );
+class MenuUtama extends Component {
+    render() {
+        return (
+            <div>
+                <p>Ini Halaman Menu Utama</p>
+            </div>
+        );
+    }
 }
 
 export default MenuUtama;

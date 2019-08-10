@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function MenuTentangKami() {
-    return(
-        <div>
-            <p>Ini Halaman Menu Tentang Kami</p>
-        </div>
-    );
+class MenuTentangKami extends Component {
+    render() {
+        return(
+            <div>
+                <p>Ini Halaman Menu Tentang Kami</p>
+            </div>
+        );
+    }
 }
 
 export default MenuTentangKami;
